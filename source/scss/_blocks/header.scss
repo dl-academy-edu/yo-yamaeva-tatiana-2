@@ -1,0 +1,72 @@
+/*Стилизация хедера*/
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 49px;
+  }
+  
+  .header__list {
+    display: flex;
+    margin-left: 60px;
+    margin-right: auto;
+  }
+  
+  .header__list-item {
+    margin-right: 9px;
+  }
+  
+  .header-logo:hover {
+    opacity: 0.5;
+  }
+  
+  .header-logo:active {
+    opacity: 0;
+  }
+  
+  .header-blog:hover {
+    opacity: 0.5;
+  }
+  
+  .header-blog:active {
+    opacity: 0;
+  }
+  
+  .header-catalog:hover {
+    opacity: 0.5;
+  }
+  
+  .header-catalog:active {
+    opacity: 0;
+  }
+  
+  .header-about:hover {
+    opacity: 0.5;
+  }
+  
+  .header-about:active {
+    opacity: 0;
+  }
+  
+  .contact {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  
+  .header__contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__contact:hover {
+    opacity: 0.5;
+  }
+  
+  .header__contact:active {
+    opacity: 0;
+  }
+  
+  .header__contact-found {
+    margin-right: 29px;
+  }

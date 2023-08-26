@@ -1,0 +1,73 @@
+/*стилизация базовая*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1E0606;
+}
+
+.btn {
+  font-weight: 700;
+  line-height: 22px;
+  max-width: max-content;
+  color: #FFFFFF;
+  background: #000000;
+  margin-top: 24px;
+  padding: 9px 22px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+.subject{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  color: #1E0606;
+}
+
+.title__content {
+  font-family: 'Crimson Text';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #1E0606;
+}
+
+.undotted {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
