@@ -50,6 +50,11 @@
     margin-top: 50px;
 }
 
+.info_list-el {
+    width: 380px;
+    margin-right: 20px;
+}
+
 .data {
     font-family: 'Open Sans';
     font-style: normal;
@@ -88,7 +93,7 @@
     margin-top: 7px;
 }
 
-.text {
+.text-blog {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -98,18 +103,18 @@
     margin-top: 14px;
 }
 
-.section {
-    margin-left: 20px;
+.number {
+    margin-left: 457px;
 }
 
-.numbers {
+.numbers__toy{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 20px;
     display: flex;
-    margin-left: 644px;
+    align-items: center;
     margin-top: 38px;
 }
 
@@ -121,15 +126,11 @@
     color: #C29974;
 }
 
-.control {
-    display: flex;
-    margin-top: -23px;
+.arrow-right-toys {
+    margin-left: auto;
 }
 
-.arrow-left {
-    margin-left: 172px;
-}
 
-.arrow-right {
-    margin-left: 1150px;
-}
+
+
+
