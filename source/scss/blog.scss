@@ -1,0 +1,136 @@
+.title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    margin-top: 60px;
+}
+
+.breadcrumbs {
+    display: flex;
+    margin-top: -11px;
+    gap: 26px;
+}
+
+.breadcrumbs-item-home-blog::after {
+    content: '';
+    display: inline-block;
+    background-image: url('../img/icon/vector__right.svg');
+    margin-left: 20px;
+    width: 8px;
+    height: 12px;
+}
+
+.breadcrumbs-item-text {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumbs-item-blog {
+    color: #1E0606;
+    opacity: 0.5;
+}
+
+.information {
+    display: flex;
+}
+
+.information__list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.information__list-two {
+    display: flex;
+    margin-top: 50px;
+}
+
+.info_list-el {
+    width: 380px;
+    margin-right: 20px;
+}
+
+.data {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 20px;
+    color: #818181;
+}
+
+.title__companies {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    width: 380px;
+    margin-top: 7px;
+}
+
+.link-active:hover {
+    text-decoration: underline;
+}
+
+.link-active:focus {
+    text-decoration: underline;
+}
+
+.company-logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    width: 380px;
+    margin-top: 7px;
+}
+
+.text-blog {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    width: 380px;
+    margin-top: 14px;
+}
+
+.number {
+    margin-left: 457px;
+}
+
+.numbers__toy{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.number__link {
+    margin-right: 64px;
+}
+
+.number__activ {
+    color: #C29974;
+}
+
+.arrow-right-toys {
+    margin-left: auto;
+}
+
+
+
+
+

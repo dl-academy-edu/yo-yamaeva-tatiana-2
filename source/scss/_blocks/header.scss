@@ -1,0 +1,65 @@
+/*Стилизация хедера*/
+
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  &-logo {
+    &:hover {
+      opacity: 0.5;
+    }
+    &:active {
+      opacity: 0;
+    }
+  }
+  &-blog {
+    &:hover {
+      opacity: 0.5;
+    }
+    &:active {
+      opacity: 0;
+    }
+  }
+  &-catalog {
+    &:hover {
+      opacity: 0.5;
+    }
+    &:active {
+      opacity: 0;
+    }
+  }
+  &-about {
+    &:hover {
+      opacity: 0.5;
+    }
+    &:active {
+      opacity: 0;
+    }
+  }
+  &__list {
+    display: flex;
+    margin-left: 60px;
+    margin-right: auto;
+    &-item {
+      margin-right: 9px;
+    }
+  }
+  &__contact {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    &:hover {
+      opacity: 0.5;
+    }
+    &:active {
+      opacity: 0;
+    }
+  }
+  &__contact-found {
+    margin-right: 29px;
+  }
+}
+
+  
